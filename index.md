@@ -34,7 +34,7 @@ The game makes use of three seperate C# scripts: Game.cs, MovePlate.cs, and Piec
 
 ## 3. Sabacc
 
-This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Similar to blackjack, my version of the game follows the rules outlined in the purchasable version of the game at Disney’s Star Wars: Galaxy’s edge. The game simulates one three-turn round of Sabacc, allowing the player to compete with between one and seven NPCs. The video below displays the fucntionality of the game.
+This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Similar to blackjack, my version of the game follows the rules outlined in the purchasable version of the game at Disney’s Star Wars: Galaxy’s edge. The game simulates one three-turn round of Sabacc, allowing the player to compete with between one and seven NPCs. The video below displays the functionality of the game.
 
 {% include youtubePlayer.html id="pczRfDRx3jk" %}
 
