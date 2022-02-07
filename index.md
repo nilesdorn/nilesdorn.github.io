@@ -7,7 +7,7 @@
 - [3. Sabacc](#3-sabacc)
 
 ## In-Progress Projects:
-- [1. Senior Thesis](#1-senior-thesis-orbital-visualization-in-vr)
+- [1. Senior Thesis](#1-senior-thesis)
 
 ## Projects
 
@@ -48,7 +48,7 @@ I am currently in the process of using the logic in this game to develop a 3D pr
 ## In-Progress Projects
 
 ### 1. Senior Thesis
-### Orbital Visualization in VR
+### _Orbital Visualization in VR_
 
 The Physics & Astronomy department at Pomona College requires students to submit a senior thesis before graduation. My senior thesis project involves visualizing Near-Earth Object (NEO) orbits in virtual reality.
 
