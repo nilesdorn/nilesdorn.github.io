@@ -6,6 +6,8 @@
 - [2. Dejarik](#2-dejarik)
 - [3. Sabacc](#3-sabacc)
 
+
+
 ## 1. Post Reality
 
 Post Reality, a subsidiary of The Glimpse Group, is an augmented reality-centric company based in New York City, NY. Post Reality's flagship app, also named Post Reality, allows users to create and share presentations in augmented reality. Through the app, users can view these experiences through through a number of methods. During the summer of 2021, I worked at Post Reality as a Software Development/Quality Assurance Intern. Over the course of my internship, we rebuilt the Post Reality app from scratch in Unity 3D and successfully pusblished it on both the Apple App Store and the Google Play Store.
@@ -14,6 +16,7 @@ While working this internship, I was involved with the Post Realty app’s devel
 
 {% include youtubePlayer.html id="dusOd25-WxQ" %}
 
+
 Due to the nature of my internship at Post Reality, all the development work I did for the app is proprietary and I am therefore unable to display the code associated with the above video.
 
 ## 2. Dejarik
@@ -21,6 +24,7 @@ Due to the nature of my internship at Post Reality, all the development work I d
 Dejarik, based on the hologram chess game of the same name played on the Millenium Falcon in Star Wars Episode IV: A New Hope, is a 2D, two-player board game made for MacOS, iPadOS, and iOS devices. I developed this game in Unity 3D with C# over my winter break following the Fall 2021 semester. There are four classes of pieces, each with different possible move and attack patterns. Since I am unable to publish this app to the Apple App Store due to copyright concerns, I have included a video below to display the game's functionality. 
 
 {% include youtubePlayer.html id="0eu2eKCP3c" %}
+
 
 An interesting problem I ran into while developing this game stemmed the design of its board. Since the board is circular, I was unable to use the standard (X, Y) coordinate system used by other Unity chess games. To combat this issue, I created a coordinate system for the board based on 2 “orbits” (designating the inner and outer circles) and 12 “rays” (designating the 12 spaces within each orbit). I defined each orbit using the radii of its outer and inner border and each ray using the angles its left and right borders made with the positive horizontal axis.
 
