@@ -23,7 +23,7 @@ Due to the nature of my internship at Post Reality, all the development work I d
 
 Dejarik, based on the hologram chess game of the same name played on the Millenium Falcon in Star Wars Episode IV: A New Hope, is a 2D, two-player board game made for MacOS, iPadOS, and iOS devices. I developed this game in Unity 3D with C# over my winter break following the Fall 2021 semester. There are four classes of pieces, each with different possible move and attack patterns. Since I am unable to publish this app to the Apple App Store due to copyright concerns, I have included a video below to display the game's functionality. 
 
-
+{% include youtubePlayer.html id="F0eu2eKCP3c" %}
 
 
 An interesting problem I ran into while developing this game stemmed the design of its board. Since the board is circular, I was unable to use the standard (X, Y) coordinate system used by other Unity chess games. To combat this issue, I created a coordinate system for the board based on 2 “orbits” (designating the inner and outer circles) and 12 “rays” (designating the 12 spaces within each orbit). I defined each orbit using the radii of its outer and inner border and each ray using the angles its left and right borders made with the positive horizontal axis.
@@ -32,4 +32,11 @@ Though this was an effective coordinate system, it resulted in another complicat
 
 ## 3. Sabacc
 
-This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Similar to blackjack, my version of the game follows the rules outlined in the purchasable version of the game at Disney’s Star Wars: Galaxy’s edge. 
+This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Similar to blackjack, my version of the game follows the rules outlined in the purchasable version of the game at Disney’s Star Wars: Galaxy’s edge. The game simulates one three-turn round of Sabacc, allowing the player to compete with between one and seven NPCs. The video below displays the fucntionality of the game.
+
+{% include youtubePlayer.html id="pczRfDRx3jk" %}
+
+
+I am currently in the process of using the logic in this game to develop a 3D protoype version in Unity. I hope to use the experience of doing so to further build on my Unity skills and gain familiarity with using Blender to create and apply textures to 3D models.
+
+
