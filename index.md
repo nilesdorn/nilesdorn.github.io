@@ -11,5 +11,6 @@ Post Reality, a subsidiary of The Glimpse Group, is an augmented reality-centric
 
 While working this internship, I was involved with the Post Realty app’s development from conception to release. The following video portrays the particular feature I developed: easel object placement in augmented reality. Though the Post Reality team has iterated on the easel model and tap to place indicator since my internship ended, my original implementation resembles this current version in most regards. Furthermore, I was also responsible for implementing easel movement and rotation features, which remain unchanged from my implementation and can be seen in action in the video.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dusOd25-WxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Due to the nature of my internship at Post Reality, all the development work I did for the app is proprietary and I am therefore unable to display the code associated with the above video.
