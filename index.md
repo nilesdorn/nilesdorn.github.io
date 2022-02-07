@@ -1,5 +1,4 @@
 # Game Development Portfolio
-## Niles Dorn
 
 ## Project List:
 - [1. Post Reality](#1-post-reality)
