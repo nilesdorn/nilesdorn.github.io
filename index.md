@@ -1,12 +1,15 @@
 # Game Development Portfolio
 ## Niles Dorn
 
-## Projects:
+## Project List:
 - [1. Post Reality](#1-post-reality)
 - [2. Dejarik](#2-dejarik)
 - [3. Sabacc](#3-sabacc)
 
+## In-Progress Projects:
+- [1. Senior Thesis](#1-senior-thesis:-orbital-visualization-in-vr)
 
+## Projects
 
 ## 1. Post Reality
 
@@ -42,4 +45,19 @@ The game makes use of two seperate Python scripts: CorrelianSpike.py and Play_Co
 
 I am currently in the process of using the logic in this game to develop a 3D protoype version in Unity. I hope to use the experience of doing so to further build upon my Unity skills and gain familiarity with using Blender to create and apply textures to 3D models.
 
+## In-Progress Projects
 
+## 1. Senior Thesis: Orbital Visualization in VR
+
+The Physics & Astronomy department at Pomona College requires students to submit a senior thesis before graduation. My senior thesis project involves visualizing Near-Earth Object (NEO) orbits in virtual reality.
+
+NEOs are defined as any small Solar System body whose orbit brings it into proximity with Earth. The Pomona Physics & Astronomy department is working on a joint project with NASA’s Jet Propulsion Laboratory (JPL) to observe, image, and track both previously discovered and currently unknown NEOs. Using a remote observatory, Pomona student observers record data on these NEOs, which is then sent to NASA for review and cataloging. 
+
+For my senior thesis, I am creating a Unity project to visualize these orbits relative to a model Solar System in VR. So far I have implemented a simple orbital mechanic that allows GameObjects to orbit around a defined point, taking into account values for eccentricity and semi-major axis. The video below displays this script running in the Unity Editor, rotating a small sphere around another larger sphere.
+
+{% include youtubePlayer.html id="Gr1WD_JesUg" %}
+
+
+The associated script, Orbit.cs, can be viewed here: [Thesis Scripts](https://github.com/trippahive/Senior-Thesis)
+
+I am further developing this project by implementing Newton’s laws of gravitation, allowing instantiated GameObjects to dynamically orbit without following a pre-defined path. This will also take velocity into account. From here, I plan to implement VR functionality, including zoom, translation, and rotation controls.
