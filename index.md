@@ -38,7 +38,7 @@ This game, based on the card game of the same name shown in Solo: A Star Wars St
 
 {% include youtubePlayer.html id="pczRfDRx3jk" %}
 
-The game makes use of two seperate Python scripts: CorrelianSpike.py and Play_CorrelianSpike.py. These scripts can be viewed here: [Sabacc Code Samples]()
+The game makes use of two seperate Python scripts: CorrelianSpike.py and Play_CorrelianSpike.py. These scripts can be viewed here: [Sabacc Code Samples](https://github.com/trippahive/PythonSabacc)
 
 I am currently in the process of using the logic in this game to develop a 3D protoype version in Unity. I hope to use the experience of doing so to further build upon my Unity skills and gain familiarity with using Blender to create and apply textures to 3D models.
 
