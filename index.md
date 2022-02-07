@@ -53,7 +53,7 @@ The Physics & Astronomy department at Pomona College requires students to submit
 
 NEOs are defined as any small Solar System body whose orbit brings it into proximity with Earth. The Pomona Physics & Astronomy department is working on a joint project with NASA’s Jet Propulsion Laboratory (JPL) to observe, image, and track both previously discovered and currently unknown NEOs. Using a remote observatory, Pomona student observers record data on these NEOs, which is then sent to NASA for review and cataloging. 
 
-For my senior thesis, I am creating a Unity project to visualize these orbits relative to a model Solar System in VR. So far I have implemented a simple orbital mechanic that allows GameObjects to orbit around a defined point, taking into account values for eccentricity and semi-major axis. The video below displays this script running in the Unity Editor, rotating a small sphere around another larger sphere.
+For my senior thesis, I am developing a Unity project to visualize these orbits relative to a model Solar System in VR. So far I have implemented a simple orbital mechanic that allows GameObjects to orbit around a defined point, taking into account values for eccentricity and semi-major axis. The video below displays this script running in the Unity Editor, rotating a small sphere around another larger sphere.
 
 {% include youtubePlayer.html id="Gr1WD_JesUg" %}
 
