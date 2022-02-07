@@ -11,7 +11,7 @@
 
 ## Projects
 
-## 1. Post Reality
+### 1. Post Reality
 
 Post Reality, a subsidiary of The Glimpse Group, is an augmented reality-centric company based in New York City, NY. Post Reality's flagship app, also named Post Reality, allows users to create and share presentations in augmented reality. Through the app, users can view these experiences using a number of methods. During the summer of 2021, I worked at Post Reality as a Software Development/Quality Assurance Intern. Over the course of my internship, our team rebuilt the Post Reality app from scratch in Unity 3D and successfully released it on both the Apple App Store and the Google Play Store.
 
@@ -22,7 +22,7 @@ While working this internship, I was involved with the Post Realty app’s devel
 
 Due to the nature of my internship at Post Reality, all the development work I did for the app is proprietary and I am therefore unable to display the code associated with the above video.
 
-## 2. Dejarik
+### 2. Dejarik
 
 Dejarik, based on the hologram chess game of the same name played on the Millenium Falcon in Star Wars Episode IV: A New Hope, is a 2D, two-player board game made for MacOS, iPadOS, and iOS devices. I developed this game in Unity 3D with C# over my winter break following the Fall 2021 semester. There are four classes of pieces, each with different possible move and attack patterns. Since I am unable to publish this app to the Apple App Store due to copyright concerns, I have included a video below to display the game's functionality. 
 
@@ -35,7 +35,7 @@ Though this was an effective coordinate system, it resulted in another complicat
 
 The game makes use of three seperate C# scripts: Game.cs, MovePlate.cs, and Piece.cs. These scripts can be viewed here: [Dejarik Code Samples](https://github.com/trippahive/Dejarik2D-Code-Samples)
 
-## 3. Sabacc
+### 3. Sabacc
 
 This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Somewhat analogous to the real world game of blackjack, my version of the game follows the rules outlined in the version of the game available at Disney’s Star Wars: Galaxy’s edge. The game simulates one three-turn round of Sabacc, allowing the player to compete with between one and seven NPCs. The video below displays the functionality of the game.
 
@@ -47,7 +47,7 @@ I am currently in the process of using the logic in this game to develop a 3D pr
 
 ## In-Progress Projects
 
-## 1. Senior Thesis: Orbital Visualization in VR
+### 1. Senior Thesis: Orbital Visualization in VR
 
 The Physics & Astronomy department at Pomona College requires students to submit a senior thesis before graduation. My senior thesis project involves visualizing Near-Earth Object (NEO) orbits in virtual reality.
 
