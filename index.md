@@ -30,7 +30,7 @@ An interesting problem I ran into while developing this game stemmed the design 
 
 Though this was an effective coordinate system, it resulted in another complication that needed resolution. Again due to the circular nature of the board, the spaces (1, 1) and (2, 1) were adjacent to the spaces (1, 12) and (2, 12). Therefore, unlike similar 2D Unity chess games, I was unable to simply increment or decrement a piece’s position to move it. For example, incrementing (1, 12) would result in the piece moving to (1, 13) (a space which doesn’t exist) instead of (1, 1). To solve this problem, I implemented a NormalizeCoordinates() function that takes an (orbit, ray) coordinate pair and, if the ray value is larger than 12 or less than 0, returns the correct coordinate pair. For examples, NormalizeCoordinates(1, 14) returns (1, 2). With these structures in place, I was able to move on to implementing the primary game loop.
 
-The game makes use of three seperate C# scripts: Game.cs, MovePlate.cs, and Piece.cs. These scripts can be viewed here: 
+The game makes use of three seperate C# scripts: Game.cs, MovePlate.cs, and Piece.cs. These scripts can be viewed here: [Dejarik Code Samples](https://github.com/trippahive/Dejarik2D-Code-Samples)
 
 ## 3. Sabacc
 
@@ -38,7 +38,8 @@ This game, based on the card game of the same name shown in Solo: A Star Wars St
 
 {% include youtubePlayer.html id="pczRfDRx3jk" %}
 
+The game makes use of two seperate Python scripts: CorrelianSpike.py and Play_CorrelianSpike.py. These scripts can be viewed here: [Sabacc Code Samples]()
 
-I am currently in the process of using the logic in this game to develop a 3D protoype version in Unity. I hope to use the experience of doing so to further build on my Unity skills and gain familiarity with using Blender to create and apply textures to 3D models.
+I am currently in the process of using the logic in this game to develop a 3D protoype version in Unity. I hope to use the experience of doing so to further build upon my Unity skills and gain familiarity with using Blender to create and apply textures to 3D models.
 
 
