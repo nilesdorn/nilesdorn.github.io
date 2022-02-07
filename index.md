@@ -30,6 +30,8 @@ An interesting problem I ran into while developing this game stemmed the design 
 
 Though this was an effective coordinate system, it resulted in another complication that needed resolution. Again due to the circular nature of the board, the spaces (1, 1) and (2, 1) were adjacent to the spaces (1, 12) and (2, 12). Therefore, unlike similar 2D Unity chess games, I was unable to simply increment or decrement a piece’s position to move it. For example, incrementing (1, 12) would result in the piece moving to (1, 13) (a space which doesn’t exist) instead of (1, 1). To solve this problem, I implemented a NormalizeCoordinates() function that takes an (orbit, ray) coordinate pair and, if the ray value is larger than 12 or less than 0, returns the correct coordinate pair. For examples, NormalizeCoordinates(1, 14) returns (1, 2). With these structures in place, I was able to move on to implementing the primary game loop.
 
+The game makes use of three seperate C# scripts: Game.cs, MovePlate.cs, and Piece.cs. These scripts can be viewed here: 
+
 ## 3. Sabacc
 
 This game, based on the card game of the same name shown in Solo: A Star Wars Story, is a text-based equivalent to the in-universe game. I developed the game using Python. Similar to blackjack, my version of the game follows the rules outlined in the purchasable version of the game at Disney’s Star Wars: Galaxy’s edge. The game simulates one three-turn round of Sabacc, allowing the player to compete with between one and seven NPCs. The video below displays the fucntionality of the game.
