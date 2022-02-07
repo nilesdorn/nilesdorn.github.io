@@ -1,5 +1,5 @@
 # Game Development Portfolio
-#### Niles Dorn
+## Niles Dorn
 
 ## Projects:
 - [1. Post Reality](#1-post-reality)
@@ -24,7 +24,7 @@ Dejarik, based on the hologram chess game of the same name played on the Milleni
 
 An interesting problem I ran into while developing this game stemmed the design of its board. Since the board is circular, I was unable to use the standard (X, Y) coordinate system used by other Unity chess games. To combat this issue, I created a coordinate system for the board based on 2 “orbits” (designating the inner and outer circles) and 12 “rays” (designating the 12 spaces within each orbit). I defined each orbit using the radii of its outer and inner border and each ray using the angles its left and right borders made with the positive horizontal axis.
 
-Though this was an effective coordinate system, it resulted in another complication that needed resolution. Again due to the circular nature of the board, the spaces (1, 1) and (2, 1) were adjacent to the spaces (1, 12) and (2, 12). Therefore, unlike similar 2D Unity chess games, I was unable to simply increment or decrement a piece’s position to move it. For example, incrementing (1, 12) would result in the piece moving to (1, 13) (a space which doesn’t exist) instead of (1, 1). To solve this problem, I implemented a NormalizeCoordinates() function that takes an (orbit, ray) coordinate pair and, if the ray value is larger than 12 or less than 0, returns the correct coordinate pair. For examples, NormalizeCoordinates(1, 14) returns (1, 2).
+Though this was an effective coordinate system, it resulted in another complication that needed resolution. Again due to the circular nature of the board, the spaces (1, 1) and (2, 1) were adjacent to the spaces (1, 12) and (2, 12). Therefore, unlike similar 2D Unity chess games, I was unable to simply increment or decrement a piece’s position to move it. For example, incrementing (1, 12) would result in the piece moving to (1, 13) (a space which doesn’t exist) instead of (1, 1). To solve this problem, I implemented a NormalizeCoordinates() function that takes an (orbit, ray) coordinate pair and, if the ray value is larger than 12 or less than 0, returns the correct coordinate pair. For examples, NormalizeCoordinates(1, 14) returns (1, 2). With these structures in place, I was able to move on to implementing the primary game loop.
 
 ## 3. Sabacc
 
