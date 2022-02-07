@@ -11,6 +11,11 @@ Post Reality, a subsidiary of The Glimpse Group, is an augmented reality-centric
 
 While working this internship, I was involved with the Post Realty app’s development from conception to release. The following video portrays the particular feature I developed: easel object placement in augmented reality. Though the Post Reality team has iterated on the easel model and tap to place indicator since my internship ended, my original implementation resembles this current version in most regards. Furthermore, I was also responsible for implementing easel movement and rotation features, which remain unchanged from my implementation and can be seen in action in the video.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dusOd25-WxQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 Due to the nature of my internship at Post Reality, all the development work I did for the app is proprietary and I am therefore unable to display the code associated with the above video.
+
+## 2. Dejarik
+
+Dejarik, based on the hologram chess game of the same name played on the Millenium Falcon in Star Wars Episode IV: A New Hope, is a 2D, two-player board game made for MacOS, iPadOS, and iOS devices. I developed this game in Unity 3D with C# over my winter break following the Fall 2021 semester. There are four classes of pieces, each with different possible move and attack patterns. Since I am unable to publish this app to the Apple App Store due to copyright concerns, I have included a video below to display the game's functionality. 
+
