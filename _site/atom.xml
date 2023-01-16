@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Niles Dorn</title>
+ <link href="http://localhost:4000/atom.xml" rel="self"/>
+ <link href="http://localhost:4000/"/>
+ <updated>2023-01-16T16:06:40-05:00</updated>
+ <id>http://localhost:4000</id>
+ <author>
+   <name></name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>About Me</title>
+   <link href="http://localhost:4000/2023/01/16/about-me/"/>
+   <updated>2023-01-16T00:00:00-05:00</updated>
+   <id>http://localhost:4000/2023/01/16/about-me</id>
+   <content type="html">&lt;p&gt;Hi, this is Niles. I am a recent graduate of Pomona College with a degree in physics and astronomy. I have both an interest in and experience with digital technologies.  I taught myself computer science skills through the use of the Unity game engine, and I learned the fundamentals of audio engineering through personal music projects using Ableton Live. I have strong problem solving and interpersonal skills, and I hope to continue to build upon my abilities in the future. This website displays a number of projects I have worked on independently or contributed to. My contact information can be found below, should my diverse skill set be of interest to you or your company.&lt;/p&gt;
+
+&lt;h3 id=&quot;contact-information&quot;&gt;Contact Information&lt;/h3&gt;
+
+&lt;p&gt;Niles Dorn&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;mailto: nilesdorn@gmail.com&quot;&gt;nilesdorn@gmail.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;tel: 207-79802305&quot;&gt;+1 (207) 798-2305&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;10 Longfellow Ave.
+Brunswick, ME
+04011&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>
