@@ -12,7 +12,7 @@ title:            Niles Dorn
 tagline:          'A Creative Portfolio'
 description:      'A portfolio of indepdendent and professional game development, music production, and sound design projects.'
 url:              https://ign1ka.github.io
-baseurl:          /portfolio-site/
+baseurl:          /
 
 
 gems:             [jekyll-paginate]
