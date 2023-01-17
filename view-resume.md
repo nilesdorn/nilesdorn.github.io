@@ -3,4 +3,4 @@ layout: page
 title: Resume
 ---
 
-<embed src="https://github.com/ign1ka/ign1ka.github.io/blob/main/_media/Dorn_Resume.pdf" type="application/pdf"/>
+<iframe src="https://drive.google.com/file/d/16ic30DaXNtSetMns6pXKL98mO5Zu2345/preview" width="640" height="480" allow="autoplay"></iframe>
