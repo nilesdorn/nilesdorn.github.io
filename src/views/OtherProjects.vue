@@ -3,7 +3,7 @@
     <h1>Music Production</h1>
 
     <div style="margin-bottom: 30px;">
-      Electronic music production is my favorite hobby, and a great creative output. Here is some music I've produced under the name Library Shift.
+      As a creative output, I produce electronic music under the name <strong>Library Shift</strong>. Below are examples of my most recent work.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>
