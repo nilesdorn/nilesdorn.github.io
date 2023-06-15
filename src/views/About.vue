@@ -9,7 +9,7 @@
         I have strong skils across many disciplines, including object-oriented programming, the Unity and Unreal game engines, XR development, and audio production.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">development projects</router-link>, released <router-link to="/other-projects">independent music</router-link>, and employed my skills in <router-link to="/resume">other fields</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">development projects</router-link>, released <router-link to="/other-projects">independent music</router-link>, and applied my abilities in <router-link to="/resume">other fields</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for full-time employment</strong>. You can reach me at <a href="mailto:nilesdorn@gmail.com">nilesdorn@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
