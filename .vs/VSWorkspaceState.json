@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\components",
+    "\\src\\data",
     "\\src\\views"
   ],
-  "SelectedNode": "\\src\\views\\Contact.vue",
+  "SelectedNode": "\\src\\data\\OtherProjectsData.ts",
   "PreviewInSolutionExplorer": false
 }

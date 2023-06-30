@@ -1,6 +1,26 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
+    new ProjectData("project-5", "Indulgence", "img/projects/indulgence.jpeg", `
+    <div class="paragraph">
+      <strong>Indulgence</strong> is the second official release off my upcoming album.
+      <br/>Album art by <a href="https://www.instagram.com/winfield.graphics/" target="blank">Adam Thacker</a>.
+            </div>
+            <div class="paragraph center">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/76j5XZxPIX0385nyHJyTpc?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>  
+          </div>
+
+          <div class="paragraph">
+            Some info :
+            <ul>
+            <li>Produced and mixed in Ableton Live 11</li>
+            <li>Mastered using DistroKid's online instant mastering service</li>
+            <li>Released independently through DistroKid</li>
+            <li>Available on all streaming platforms</li>
+            </ul>
+        </div>
+
+    `, "#c10606", false, true),   
     new ProjectData("project-6", "The Myth of Sisyphus", "img/projects/myth-of-sisyphus.png", `
     <div class="paragraph">
       <strong>The Myth of Sisyphus</strong> is the first official release off my upcoming album.
@@ -19,8 +39,8 @@ export default [
             <li>Available on all streaming platforms</li>
             </ul>
         </div>
-        
-    `, "#c10606", false, true),
+
+    `, "#1ca1e2"), 
     new ProjectData("project-7", "No Album", "img/projects/no-album.png", `
     <div class="paragraph">
                 <strong>No Album</strong> is an unmixed and unmastered draft of my upcoming album, available on SoundCloud.
@@ -37,6 +57,5 @@ export default [
               <li>45 minutes</li>
               <li>Instrumental</li>
               </ul>
-          </div>
-`, "#1ca1e2"),
+          </div>`),
 ];
